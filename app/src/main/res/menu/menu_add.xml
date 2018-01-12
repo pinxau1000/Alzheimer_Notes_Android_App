@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".AddActivity">
+
+    <item
+        android:id="@+id/btn_done"
+        android:icon="@drawable/ic_action_done"
+        android:title="@string/action_done"
+        android:visible="true"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/edit_switch"
+        android:enabled="true"
+        android:title="@string/edit_mode"
+        android:visible="true"
+        app:actionLayout="@layout/switch_item"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/add_text"
+        android:checkable="true"
+        android:title="@string/add_text"
+        android:visible="true"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/add_image"
+        android:checkable="true"
+        android:title="@string/add_image"
+        android:visible="true"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/add_video"
+        android:checkable="true"
+        android:title="@string/add_video"
+        android:visible="true"
+        app:showAsAction="never" />
+
+</menu>

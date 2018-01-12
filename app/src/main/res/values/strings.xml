@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name" translatable="false">Alzheimer Notes</string>
+
+    <!-- Add Activity MENU Strings -->
+    <string name="add_video">Video</string>
+    <string name="add_image">Image</string>
+    <string name="add_text">Text</string>
+    <string name="action_done">Done</string>
+    <string name="edit_mode">Edit Mode</string>
+
+    <!-- Add Activity Layout Strings -->
+    <string name="activity_add_title_hint">Title</string>
+    <string name="activity_add_keywords_hint">Keywords  separated by ;</string>
+    <string name="activity_add_content_description_image">Note Image</string>
+    <string name="activity_add_content_description_video">Note Video</string>
+    <string name="activity_add_bodyText_hint">Note\'s Body Text</string>
+    <string name="activity_add_id_field">ID: %s</string>
+    <string name="activity_add_createDate_field">Created on: %s</string>
+    <string name="activity_add_lastEdit_field">Last Edit on: %s</string>
+    <string name="activity_add_editSwitch_text">Edit Mode:</string>
+    <string name="activity_add_btn_back">Go Back</string>
+
+    <!-- Add Activity Class Strings -->
+    <string name="dialogPositiveButtonText">Yes</string>
+    <string name="dialogNegativeButtonText">Cancel</string>
+    <string name="dialogNeutralButtonText">Ok</string>
+
+    <string name="deleteDialogTitle">Delete</string>
+    <string name="deleteDialogMessage">Are you sure? This action will permanently remove this resource from the note when you finish editing it.</string>
+
+    <string name="resourceNotFoundTitle">Note Resource Not Found!</string>
+    <string name="resourceNotFoundMessage">The resource associated to this note is no longer available.</string>
+
+    <string name="permissionDeniedTitle">Storage Permission Denied!</string>
+    <string name="permissionDeniedMessage">The resource cannot be uploaded to the note because the app doesn\'t have storage permission to do so. Please grant the app storage permissions on the device apps settings.</string>
+
+    <string name="nullFilePathTitle">Ups…</string>
+    <string name="nullFilePathMessage">Something went wrong when trying to pick this resource.</string>
+
+    <string name="newImageDialog_Title">Add Photo!</string>
+    <string name="newImageDialog_capturePhoto">Take Photo</string>
+    <string name="newImageDialog_galleryPhoto">Choose from Library</string>
+
+    <string name="newVideoDialog_Title">Add Video!</string>
+    <string name="newVideoDialog_captureVideo">Record Video</string>
+    <string name="newVideoDialog_galleryVideo">Choose from Library</string>
+
+    <!-- Main Activity Layout Strings -->
+    <!-- No String Hardcoded on Main Activity -->
+
+    <!-- Main Activity Class Strings -->
+    <string name="unableToOpenSaveFile">Could not read Notepad from internal storage (no Notepad yet?).</string>
+    <string name="errorWritingSaveFile">Could not write Notepad to internal storage.</string>
+
+    <string name="filterDialogTitle">Filter by:</string>
+    <string name="filterTitle">Title</string>
+    <string name="filterKeywords">Keyword</string>
+    <string name="filterBody">Body</string>
+    <string name="filterID">ID</string>
+    <string name="filterImage">Contains Image</string>
+    <string name="filterVideo">Contains Video</string>
+    <string name="filterDate">Date</string>
+
+    <string name="noteDeletedSucessToast">Note deleted successfully!</string>
+    <string name="noteDeleteMessage">Delete the Note: %1$s, Created on: %2$s ?</string>
+    <string name="datetosearch_tv">DATE (search)</string>
+
+    <string name="noteNotCompleteToast">First you must add a Title and some keywords!</string>
+    <string name="errorReadingSaveFile">Could not read Notepad from the internal storage.</string>
+
+    <string name="menu_main_search">Search</string>
+    <string name="menu_main_add">Add</string>
+    <string name="title_activity_maps">Map</string>
+
+</resources>

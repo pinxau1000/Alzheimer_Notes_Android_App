@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_map_item"
+        android:icon="@drawable/ic_action_map"
+        android:title="Show Notes On Map"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/menu_import_file"
+        android:enabled="true"
+        android:title="Import Notes from File"
+        android:visible="true"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_export_file"
+        android:enabled="true"
+        android:title="Export Notes to File"
+        android:visible="true"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_import_bluetooth"
+        android:enabled="true"
+        android:title="Bluetooth"
+        android:visible="true"
+        app:showAsAction="never" />
+</menu>
