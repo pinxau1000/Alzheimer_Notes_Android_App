@@ -1,4 +1,4 @@
-[![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](//TODO Link For Apk Download)
+![APK DOWNLOAD](https://lolmods.files.wordpress.com/2017/05/dtafalonso-android-lollipop-downloads.png)
 
 # Alzheimer Notes Project
 This project is an android App designed for people with Alzheimer or Special Necessities.
